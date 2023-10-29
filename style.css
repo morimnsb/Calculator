@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background: linear-gradient(
+    43deg,
+    #e4cece 0%,
+    #8a7adc 40%,
+    rgba(255, 0, 208, 0.7) 80%
+  );
+}
+
+#main {
+  background-color: black;
+  width: 500px;
+  height: inherit;
+  margin-top: 50px;
+  border-bottom: 4.5rem solid #302c2c;
+  border-radius: 5%;
+}
+
+@font-face {
+  font-family: "digital-7";
+  src: url("./Fonts/digital-7.ttf") format("truetype");
+}
+
+.screen{
+  height: 100px;
+  margin-bottom: 25px;
+  font-family: Digital-7;
+  font-size: 140px;
+  background-color: #e6e4f0;
+}
+
+.keys button{
+  margin: 0.2rem;
+}
+
+#equal{
+  margin-left: 0.5rem;
+}
+
+
+

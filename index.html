@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Calculator</title> 
+</head>
+<body>
+    <div class="container shadow-lg  text-center  " id="main">    
+
+        <!-- screen to show the numbers -->
+         >
+        <input  type="text" class="screen col-12" >
+        <div>
+        
+        
+        <!-- keyboard for get numbers -->
+        <div class="keys row justify-content-center  ">
+          
+            <button value = "AC" class="all-clear keyboard-btn btn btn-danger  border border-2 col-3 fs-2 " >AC</button>
+            <button type="button"  value = "MR" class="operator keyboard-btn btn btn-light  border border-2 col-2  fs-2" disabled>MR</button>
+            <button type="button"  value = "M+" class="operator keyboard-btn btn btn-light  border border-2 col-2 fs-2" disabled>M+</button>
+            <button type="button"  value = "M-" class="operator keyboard-btn btn btn-light  border border-2 col-2 fs-2 disabled ">M-</button>
+            <button type="button"  value = "/" class="operator keyboard-btn btn btn-light  border border-2 col-2 fs-2">&#247;</button>
+
+
+            <button type="button"  value = "C" class="operator keyboard-btn btn btn-light  border border-3 col-3 fs-2 disabled" >C</button>
+            <button type="button"  value = "7" class="keyboard-btn btn btn-dark  border border-3 col-2  fs-2">7</button>
+            <button type="button"  value = "8" class="keyboard-btn btn btn-dark  border border-3 col-2 fs-2" >8</button>
+            <button type="button"  value = "9" class="keyboard-btn btn btn-dark  border border-3 col-2 fs-2 ">9</button>
+            <button type="button"  value = "*" class="operator keyboard-btn btn btn-light  border border-3 col-2 fs-2">&#215;</button>
+            <button type="button"  value = "%" class="operator keyboard-btn btn btn-light  border border-3 col-3 fs-2 " >%</button>
+            <button type="button"  value = "4" class="keyboard-btn btn btn-dark  border border-3 col-2  fs-2">4</button>
+            <button type="button"  value = "5" class="keyboard-btn btn btn-dark  border border-3 col-2 fs-2" >5</button>
+            <button type="button"  value = "6" class="keyboard-btn btn btn-dark  border border-3 col-2 fs-2 ">6</button>
+            <button type="button"  value = "-" class="operator keyboard-btn btn btn-light  border border-3 col-2 fs-2">-</button>
+
+            <button type="button"  value = "&" class="operator keyboard-btn btn btn-light  border border-3 col-3 fs-1 disabled" >&#8730;</button>
+            <button type="button"  value = "1" class="keyboard-btn btn btn-dark  border border-3 col-2  fs-2">1</button>
+            <button type="button"  value = "2" class="keyboard-btn btn btn-dark  border border-3 col-2 fs-2" >2</button>
+            <button type="button"  value = "3" class="keyboard-btn btn btn-dark  border border-3 col-2 fs-2 ">3</button>
+            <button type="button"  value = "+" class="operator keyboard-btn btn btn-light  border border-3 col-2 fs-2">+</button>
+
+            <button type="button"  value = "-" class="negative keyboard-btn btn btn-light  border border-3 col-3 fs-2 " >+/-</button>
+            <button type="button"  value = "0" class="keyboard-btn btn btn-dark  border border-3 col-2  fs-2">0</button>
+            <button type="button"  value = "." class="decimal keyboard-btn btn btn-dark  border border-3 col-2 fs-2" >.</button>
+            <button type="button"  value = "="  id="equal" class="operator keyboard-btn btn btn-primary  border border-3 col-4 fs-2 ">=</button>
+            
+      </div>
+    </div>
+    
+      <!-- scripts files -->
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
