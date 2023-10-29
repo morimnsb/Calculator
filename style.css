@@ -32,8 +32,9 @@ body {
   height: 100px;
   margin-bottom: 25px;
   font-family: Digital-7;
-  font-size: 2rem;
+  font-size: 4rem;
   background-color: #e6e4f0;
+  text-align: center;
 }
 
 .keys button{
