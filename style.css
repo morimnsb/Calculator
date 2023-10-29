@@ -12,6 +12,8 @@ body {
     #8a7adc 40%,
     rgba(255, 0, 208, 0.7) 80%
   );
+  width:100%;
+  height:100%;
 }
 
 #main {
